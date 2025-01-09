@@ -1,0 +1,26 @@
+#Function definition
+def add_numbers(a, b):
+    return a + b
+
+
+result = add_numbers(5, 3) #Function call
+print("The sum of the numbers is:", result)
+
+
+def circleArea(a):
+    return 3.14 *a *a
+    
+    
+result = circleArea(5)
+print("The area of the circle is:", result)
+
+
+def ctof(a):
+    return (a-32)*5/9
+
+result = ctof(5)
+print(result)
+
+#1) copy/paste example, change the name
+#2) check parameters, change if needed
+#3) look up the formula, type it after the retrun statement 
